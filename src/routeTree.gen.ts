@@ -10,33 +10,128 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AuthorGuidelinesRouteImport } from './routes/author-guidelines'
+import { Route as CallForPapersRouteImport } from './routes/call-for-papers'
+import { Route as CommitteeRouteImport } from './routes/committee'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as RegistrationRouteImport } from './routes/registration'
+import { Route as TravelRouteImport } from './routes/travel'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthorGuidelinesRoute = AuthorGuidelinesRouteImport.update({
+  id: '/author-guidelines',
+  path: '/author-guidelines',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CallForPapersRoute = CallForPapersRouteImport.update({
+  id: '/call-for-papers',
+  path: '/call-for-papers',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CommitteeRoute = CommitteeRouteImport.update({
+  id: '/committee',
+  path: '/committee',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RegistrationRoute = RegistrationRouteImport.update({
+  id: '/registration',
+  path: '/registration',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TravelRoute = TravelRouteImport.update({
+  id: '/travel',
+  path: '/travel',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/author-guidelines': typeof AuthorGuidelinesRoute
+  '/call-for-papers': typeof CallForPapersRoute
+  '/committee': typeof CommitteeRoute
+  '/contact': typeof ContactRoute
+  '/registration': typeof RegistrationRoute
+  '/travel': typeof TravelRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/author-guidelines': typeof AuthorGuidelinesRoute
+  '/call-for-papers': typeof CallForPapersRoute
+  '/committee': typeof CommitteeRoute
+  '/contact': typeof ContactRoute
+  '/registration': typeof RegistrationRoute
+  '/travel': typeof TravelRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/author-guidelines': typeof AuthorGuidelinesRoute
+  '/call-for-papers': typeof CallForPapersRoute
+  '/committee': typeof CommitteeRoute
+  '/contact': typeof ContactRoute
+  '/registration': typeof RegistrationRoute
+  '/travel': typeof TravelRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/author-guidelines'
+    | '/call-for-papers'
+    | '/committee'
+    | '/contact'
+    | '/registration'
+    | '/travel'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/about'
+    | '/author-guidelines'
+    | '/call-for-papers'
+    | '/committee'
+    | '/contact'
+    | '/registration'
+    | '/travel'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/author-guidelines'
+    | '/call-for-papers'
+    | '/committee'
+    | '/contact'
+    | '/registration'
+    | '/travel'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  AuthorGuidelinesRoute: typeof AuthorGuidelinesRoute
+  CallForPapersRoute: typeof CallForPapersRoute
+  CommitteeRoute: typeof CommitteeRoute
+  ContactRoute: typeof ContactRoute
+  RegistrationRoute: typeof RegistrationRoute
+  TravelRoute: typeof TravelRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +143,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/author-guidelines': {
+      id: '/author-guidelines'
+      path: '/author-guidelines'
+      fullPath: '/author-guidelines'
+      preLoaderRoute: typeof AuthorGuidelinesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/call-for-papers': {
+      id: '/call-for-papers'
+      path: '/call-for-papers'
+      fullPath: '/call-for-papers'
+      preLoaderRoute: typeof CallForPapersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/committee': {
+      id: '/committee'
+      path: '/committee'
+      fullPath: '/committee'
+      preLoaderRoute: typeof CommitteeRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/registration': {
+      id: '/registration'
+      path: '/registration'
+      fullPath: '/registration'
+      preLoaderRoute: typeof RegistrationRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/travel': {
+      id: '/travel'
+      path: '/travel'
+      fullPath: '/travel'
+      preLoaderRoute: typeof TravelRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  AuthorGuidelinesRoute: AuthorGuidelinesRoute,
+  CallForPapersRoute: CallForPapersRoute,
+  CommitteeRoute: CommitteeRoute,
+  ContactRoute: ContactRoute,
+  RegistrationRoute: RegistrationRoute,
+  TravelRoute: TravelRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
