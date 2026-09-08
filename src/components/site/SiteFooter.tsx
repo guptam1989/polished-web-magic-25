@@ -21,7 +21,7 @@ export function SiteFooter() {
             <span>
               Dr. B. R. Ambedkar National Institute of Technology
               <br />
-              N.I.T. Post Office, Jalandhar (Punjab) â€“ 144 027
+              N.I.T. Post Office, Jalandhar (Punjab) - 144 027
             </span>
           </p>
         </div>
@@ -49,7 +49,7 @@ export function SiteFooter() {
 
       <div className="border-t border-navy-foreground/15">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-navy-foreground/60">
-          <p>Â© 2027 NITCOM, NIT Jalandhar. All rights reserved.</p>
+          <p>{"\u00A9"} 2027 NITCOM, NIT Jalandhar. All rights reserved.</p>
           <div className="flex gap-4">
             <Link to="/call-for-papers" className="hover:text-navy-foreground">
               Call for Papers
