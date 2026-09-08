@@ -9,8 +9,8 @@ export function SiteFooter() {
           <h3 className="font-display text-xl font-semibold">NITCOM-2027</h3>
           <p className="mt-3 text-sm text-navy-foreground/75">
             International Conference on Next-Gen Intelligent Technologies in Computing and
-            Communication, hosted by the Department of Computer Science &amp; Engineering at NIT
-            Jalandhar.
+            Communication, hosted by the Department of Computer Science &amp; Engineering, Dr. B. R.
+            Ambedkar National Institute of Technology Jalandhar
           </p>
         </div>
 
