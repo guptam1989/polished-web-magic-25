@@ -47,17 +47,17 @@ export const tracks = [
 ];
 
 export const earlyBirdFees = [
-  { type: "Academician", indian: "â‚¹9,000", foreign: "US$ 300" },
-  { type: "Industry Person", indian: "â‚¹10,000", foreign: "US$ 400" },
-  { type: "Student", indian: "â‚¹8,000", foreign: "US$ 250" },
-  { type: "Attendee", indian: "â‚¹5,000", foreign: "US$ 100" },
+  { type: "Academician", indian: "\u20B99,000", foreign: "US$ 300" },
+  { type: "Industry Person", indian: "\u20B910,000", foreign: "US$ 400" },
+  { type: "Student", indian: "\u20B98,000", foreign: "US$ 250" },
+  { type: "Attendee", indian: "\u20B95,000", foreign: "US$ 100" },
 ];
 
 export const normalFees = [
-  { type: "Academician", indian: "â‚¹10,000", foreign: "US$ 350" },
-  { type: "Industry Person", indian: "â‚¹11,000", foreign: "US$ 450" },
-  { type: "Student", indian: "â‚¹9,000", foreign: "US$ 300" },
-  { type: "Attendee", indian: "â‚¹6,000", foreign: "US$ 150" },
+  { type: "Academician", indian: "\u20B910,000", foreign: "US$ 350" },
+  { type: "Industry Person", indian: "\u20B911,000", foreign: "US$ 450" },
+  { type: "Student", indian: "\u20B99,000", foreign: "US$ 300" },
+  { type: "Attendee", indian: "\u20B96,000", foreign: "US$ 150" },
 ];
 
 export const bankDetails = [
@@ -67,13 +67,13 @@ export const bankDetails = [
 export type CommitteeGroup = { title: string; members: string[] };
 
 export const leadership: CommitteeGroup[] = [
-  { title: "Patron", members: ["Prof. Binod Kumar Kanaujia â€” Director, NIT Jalandhar"] },
-  { title: "Co-Patron", members: ["Prof. A. L. Sangal â€” Head, CSE, NIT Jalandhar"] },
+  { title: "Patron", members: ["Prof. Binod Kumar Kanaujia - Director, NIT Jalandhar"] },
+  { title: "Co-Patron", members: ["Prof. A. L. Sangal - Head, CSE, NIT Jalandhar"] },
   {
     title: "General Chairs",
     members: [
-      "Prof. Harsh Verma â€” CSED, NIT Jalandhar",
-      "Dr. Rajneesh Rani â€” Associate Professor, CSED, NIT Jalandhar",
+      "Prof. Harsh Verma - CSED, NIT Jalandhar",
+      "Dr. Rajneesh Rani - Associate Professor, CSED, NIT Jalandhar",
     ],
   },
   {
@@ -102,7 +102,7 @@ export const internationalAdvisory = [
   "Dr. Anand Paul, Associate Professor, Kyungpook National University, South Korea",
   "Dr. Pavel Kromer, Associate Professor, VSB-Technical University of Ostrava, Czech Republic",
   "Dr. Pradeep Kumar, Assistant Professor, University of KwaZulu-Natal, South Africa",
-  "Dr. Chaman Verma, Assistant Professor, EÃ¶tvÃ¶s LorÃ¡nd University, Budapest, Hungary",
+  "Dr. Chaman Verma, Assistant Professor, E\u00F6tv\u00F6s Lor\u00E1nd University, Budapest, Hungary",
 ];
 
 export const nationalAdvisory = [
