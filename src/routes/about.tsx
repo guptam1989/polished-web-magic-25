@@ -41,7 +41,7 @@ function About() {
             </p>
             <p>
               The Ministry of Education, Government of India has since declared the Institute an
-              “Institute of National Importance” under the Act of Parliament, 2007. The campus
+              "Institute of National Importance" under the Act of Parliament, 2007. The campus
               combines a strong research culture with modern teaching and residential facilities.
             </p>
           </div>
@@ -82,3 +82,4 @@ function About() {
     </PageLayout>
   );
 }
+
