@@ -39,7 +39,7 @@ function Contact() {
               lines: [
                 "Department of Computer Science & Engineering",
                 "Dr. B. R. Ambedkar NIT Jalandhar",
-                "N.I.T. Post Office, Jalandhar (Punjab) – 144 027",
+                "N.I.T. Post Office, Jalandhar (Punjab) - 144 027",
               ],
             },
             {
@@ -82,3 +82,4 @@ function Contact() {
     </PageLayout>
   );
 }
+
