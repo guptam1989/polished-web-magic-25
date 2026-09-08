@@ -37,7 +37,7 @@ export function SiteFooter() {
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-gold" />
-              +9196797000950
+              +919679700950
             </li>
             <li className="flex items-center gap-2">
               <Phone className="h-4 w-4 text-gold" />
