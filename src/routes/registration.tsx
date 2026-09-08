@@ -103,8 +103,8 @@ function Registration() {
           </div>
           <p className="mt-4 text-sm text-muted-foreground">
             After transferring the fee, email the transaction reference and paper ID to{" "}
-            <a className="font-medium text-navy underline" href="mailto:nitcom.cs@nitj.ac.in">
-              nitcom.cs@nitj.ac.in
+            <a className="font-medium text-navy underline" href="mailto:guptam@nitj.ac.in">
+              guptam@nitj.ac.in
             </a>
             .
           </p>
@@ -113,3 +113,4 @@ function Registration() {
     </PageLayout>
   );
 }
+
