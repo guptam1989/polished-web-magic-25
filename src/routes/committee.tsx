@@ -81,7 +81,7 @@ const committeeGroups: CommitteeGroup[] = [
     ["Dr. Vijay Kumar", "HoD, IT"],
   ]),
   group("General Chairs", [
-    ["Prof. Harsh Verma", "CSED, NIT Jalandhar"],
+    ["Prof. Harsh Verma", "Professor, CSED, NIT Jalandhar"],
     ["Dr. Rajneesh Rani", "Associate Professor, CSED, NIT Jalandhar"],
   ]),
   group("Organizing Chairs", ["Dr. Amritpal Singh", "Dr. K. P. Sharma"]),
@@ -112,7 +112,7 @@ const committeeGroups: CommitteeGroup[] = [
     "Dr. Madhurima Buragohain",
     "Dr. Simranjit Singh",
   ]),
-  group("Planetary Chairs", [
+  group("Plenary Chairs", [
     "Dr. Afzal Sikander",
     "Dr. Ravi Verma",
     "Dr. Kusum Bharti",
@@ -245,3 +245,4 @@ function Committee() {
     </PageLayout>
   );
 }
+
