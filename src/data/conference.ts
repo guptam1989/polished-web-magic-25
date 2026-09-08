@@ -5,7 +5,7 @@ export const importantDates = [
   { label: "Conference Registration Starts", date: "March 15, 2027" },
   { label: "Conference Registration Deadline", date: "April 15, 2027" },
   { label: "Camera-Ready Manuscript Deadline", date: "May 1, 2027" },
-  { label: "Conference Dates", date: "May 28â€“29, 2027" },
+  { label: "Conference Dates", date: "May 28-29, 2027" },
 ];
 
 export const tracks = [
