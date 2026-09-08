@@ -61,7 +61,7 @@ export const normalFees = [
 ];
 
 export const bankDetails = [
-  ["Payment instructions", "Contact nitcom.cs@nitj.ac.in for secure payment details"],
+  ["Payment instructions", "Contact guptam@nitj.ac.in for secure payment details"],
 ];
 
 export type CommitteeGroup = { title: string; members: string[] };
