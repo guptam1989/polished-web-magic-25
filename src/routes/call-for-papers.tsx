@@ -28,7 +28,7 @@ function Cfp() {
       <PageHero
         eyebrow="Call for Papers"
         title="Share your research at NITCOM-2027"
-        description="May 28–29, 2027 · Hybrid Mode · Technically sponsored by Springer"
+        description="May 28-29, 2027 Â· Hybrid Mode"
       />
 
       <Section>
@@ -111,3 +111,4 @@ function Cfp() {
     </PageLayout>
   );
 }
+
