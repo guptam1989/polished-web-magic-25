@@ -26,7 +26,7 @@ export const tracks = [
   {
     id: "Track 3",
     title: "Computing",
-    chair: "Pilli Emmanuel Shubhakar",
+    chair: "Dr. Pilli Emmanuel Shubhakar, Professor, MNIT Jaipur",
     chairUrl: "https://mnit.ac.in/dept_cse/profile?fid=RKSK",
     description:
       "High-Performance Computing, Cloud and Edge architectures, Quantum Computing and large-scale distributed systems.",
