@@ -5,14 +5,14 @@ export const importantDates = [
   { label: "Conference Registration Starts", date: "March 15, 2027" },
   { label: "Conference Registration Deadline", date: "April 15, 2027" },
   { label: "Camera-Ready Manuscript Deadline", date: "May 1, 2027" },
-  { label: "Conference Dates", date: "May 28–29, 2027" },
+  { label: "Conference Dates", date: "May 28â€“29, 2027" },
 ];
 
 export const tracks = [
   {
     id: "Track 1",
     title: "Next Generation Technology Trends",
-    chair: "Dr. Manoj Mishra, Professor, IIT Roorkee",
+    chair: "Dr. Sanjeev Sofat, Professor, PEC Chandigarh",
     description:
       "Internet of Things, Blockchain, Cyber-Physical Systems, Digital Transformation, Metaverse, Smart Cities and Machine-to-Machine systems.",
   },
@@ -26,14 +26,15 @@ export const tracks = [
   {
     id: "Track 3",
     title: "Computing",
-    chair: "Dr. H. M. Gupta, Former Professor, IIT Delhi",
+    chair: "Pilli Emmanuel Shubhakar",
+    chairUrl: "https://mnit.ac.in/dept_cse/profile?fid=RKSK",
     description:
       "High-Performance Computing, Cloud and Edge architectures, Quantum Computing and large-scale distributed systems.",
   },
   {
     id: "Track 4",
     title: "Security and Privacy",
-    chair: "Dr. Sanjeev Sofat, Professor, PEC Chandigarh",
+    chair: "Dr. Manoj Mishra, Professor, IIT Roorkee",
     description:
       "Cyber security concepts, digital forensics, intrusion detection, cryptography, trust management and privacy regulation.",
   },
@@ -47,17 +48,17 @@ export const tracks = [
 ];
 
 export const earlyBirdFees = [
-  { type: "Academician", indian: "₹9,000", foreign: "US$ 300" },
-  { type: "Industry Person", indian: "₹10,000", foreign: "US$ 400" },
-  { type: "Student", indian: "₹8,000", foreign: "US$ 250" },
-  { type: "Attendee", indian: "₹5,000", foreign: "US$ 100" },
+  { type: "Academician", indian: "â‚¹9,000", foreign: "US$ 300" },
+  { type: "Industry Person", indian: "â‚¹10,000", foreign: "US$ 400" },
+  { type: "Student", indian: "â‚¹8,000", foreign: "US$ 250" },
+  { type: "Attendee", indian: "â‚¹5,000", foreign: "US$ 100" },
 ];
 
 export const normalFees = [
-  { type: "Academician", indian: "₹10,000", foreign: "US$ 350" },
-  { type: "Industry Person", indian: "₹11,000", foreign: "US$ 450" },
-  { type: "Student", indian: "₹9,000", foreign: "US$ 300" },
-  { type: "Attendee", indian: "₹6,000", foreign: "US$ 150" },
+  { type: "Academician", indian: "â‚¹10,000", foreign: "US$ 350" },
+  { type: "Industry Person", indian: "â‚¹11,000", foreign: "US$ 450" },
+  { type: "Student", indian: "â‚¹9,000", foreign: "US$ 300" },
+  { type: "Attendee", indian: "â‚¹6,000", foreign: "US$ 150" },
 ];
 
 export const bankDetails = [
@@ -67,13 +68,13 @@ export const bankDetails = [
 export type CommitteeGroup = { title: string; members: string[] };
 
 export const leadership: CommitteeGroup[] = [
-  { title: "Patron", members: ["Prof. Binod Kumar Kanaujia — Director, NIT Jalandhar"] },
-  { title: "Co-Patron", members: ["Prof. A. L. Sangal — Head, CSE, NIT Jalandhar"] },
+  { title: "Patron", members: ["Prof. Binod Kumar Kanaujia â€” Director, NIT Jalandhar"] },
+  { title: "Co-Patron", members: ["Prof. A. L. Sangal â€” Head, CSE, NIT Jalandhar"] },
   {
     title: "General Chairs",
     members: [
-      "Prof. Harsh Verma — CSED, NIT Jalandhar",
-      "Dr. Rajneesh Rani — Associate Professor, CSED, NIT Jalandhar",
+      "Prof. Harsh Verma â€” CSED, NIT Jalandhar",
+      "Dr. Rajneesh Rani â€” Associate Professor, CSED, NIT Jalandhar",
     ],
   },
   {
@@ -102,7 +103,7 @@ export const internationalAdvisory = [
   "Dr. Anand Paul, Associate Professor, Kyungpook National University, South Korea",
   "Dr. Pavel Kromer, Associate Professor, VSB-Technical University of Ostrava, Czech Republic",
   "Dr. Pradeep Kumar, Assistant Professor, University of KwaZulu-Natal, South Africa",
-  "Dr. Chaman Verma, Assistant Professor, Eötvös Loránd University, Budapest, Hungary",
+  "Dr. Chaman Verma, Assistant Professor, EÃ¶tvÃ¶s LorÃ¡nd University, Budapest, Hungary",
 ];
 
 export const nationalAdvisory = [
@@ -212,3 +213,4 @@ export const organisingGroups: CommitteeGroup[] = [
     ],
   },
 ];
+
