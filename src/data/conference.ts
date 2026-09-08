@@ -1,10 +1,11 @@
 export const importantDates = [
-  { label: "Submission Opens", date: "January 15, 2025" },
-  { label: "Paper Submission Deadline", date: "February 28, 2025" },
-  { label: "Acceptance Notification", date: "March 15, 2025" },
-  { label: "Camera-Ready Manuscript", date: "May 15, 2025" },
-  { label: "Registration Closes", date: "May 20, 2025" },
-  { label: "Conference Dates", date: "June 13–14, 2025" },
+  { label: "Submission Opens", date: "November 1, 2026" },
+  { label: "Paper Submission Deadline", date: "February 10, 2027" },
+  { label: "Acceptance Notification Deadline", date: "March 1, 2027" },
+  { label: "Conference Registration Starts", date: "March 15, 2027" },
+  { label: "Conference Registration Deadline", date: "April 15, 2027" },
+  { label: "Camera-Ready Manuscript Deadline", date: "May 1, 2027" },
+  { label: "Conference Dates", date: "May 28–29, 2027" },
 ];
 
 export const tracks = [
@@ -46,58 +47,42 @@ export const tracks = [
 ];
 
 export const earlyBirdFees = [
-  { type: "Academician", indian: "₹5,000", foreign: "US$ 150" },
-  { type: "Industry Person", indian: "₹5,500", foreign: "US$ 200" },
-  { type: "Student", indian: "₹4,000", foreign: "US$ 120" },
-  { type: "Attendee", indian: "₹3,000", foreign: "US$ 50" },
+  { type: "Academician", indian: "₹9,000", foreign: "US$ 300" },
+  { type: "Industry Person", indian: "₹10,000", foreign: "US$ 400" },
+  { type: "Student", indian: "₹8,000", foreign: "US$ 250" },
+  { type: "Attendee", indian: "₹5,000", foreign: "US$ 100" },
 ];
 
 export const normalFees = [
-  { type: "Academician", indian: "₹6,000", foreign: "US$ 200" },
-  { type: "Industry Person", indian: "₹6,000", foreign: "US$ 250" },
-  { type: "Student", indian: "₹5,000", foreign: "US$ 150" },
-  { type: "Attendee", indian: "₹4,000", foreign: "US$ 100" },
+  { type: "Academician", indian: "₹10,000", foreign: "US$ 350" },
+  { type: "Industry Person", indian: "₹11,000", foreign: "US$ 450" },
+  { type: "Student", indian: "₹9,000", foreign: "US$ 300" },
+  { type: "Attendee", indian: "₹6,000", foreign: "US$ 150" },
 ];
 
 export const bankDetails = [
-  ["Account Number", "37792171549"],
-  ["IFSC Code", "SBIN0050841"],
-  ["MICR Code", "144002065"],
-  ["SWIFT Code", "SBININBB440"],
-  ["Branch", "REC Jalandhar"],
-  ["Bank Name", "State Bank of India"],
+  ["Payment instructions", "Contact nitcom.cs@nitj.ac.in for secure payment details"],
 ];
 
 export type CommitteeGroup = { title: string; members: string[] };
 
 export const leadership: CommitteeGroup[] = [
-  { title: "Patron", members: ["Prof. Binod Kumar Kanaujia, Director, NIT Jalandhar"] },
-  { title: "Co-Patron", members: ["Prof. Ajay Bansal, Registrar, NIT Jalandhar"] },
-  { title: "Steering Committee", members: ["Prof. J. N. Chakraborty, Professor, NIT Jalandhar"] },
-  { title: "Executive General Chair", members: ["Dr. Geeta Sikka, Professor, NIT Delhi"] },
+  { title: "Patron", members: ["Prof. Binod Kumar Kanaujia — Director, NIT Jalandhar"] },
+  { title: "Co-Patron", members: ["Prof. A. L. Sangal — Head, CSE, NIT Jalandhar"] },
   {
-    title: "General Chair(s)",
+    title: "General Chairs",
     members: [
-      "Prof. A. L. Sangal, Professor, NIT Jalandhar",
-      "Prof. Harsh K. Verma, Professor, NIT Jalandhar",
+      "Prof. Harsh Verma — CSED, NIT Jalandhar",
+      "Dr. Rajneesh Rani — Associate Professor, CSED, NIT Jalandhar",
     ],
   },
   {
-    title: "Conference Chair(s)",
-    members: [
-      "Dr. Renu Dhir, Associate Professor, NIT Jalandhar",
-      "Dr. Rajneesh Rani, Associate Professor & Head, CSE Dept., NIT Jalandhar",
-      "Dr. Anurag Singh, Associate Professor, NIT Delhi",
-    ],
+    title: "Organizing Chairs",
+    members: ["Dr. Amritpal Singh", "Dr. K. P. Sharma"],
   },
-  { title: "Convener(s)", members: ["Er. D. K. Gupta, Associate Professor, NIT Jalandhar"] },
   {
-    title: "Secretary",
-    members: [
-      "Dr. Samayveer Singh, Assistant Professor, NIT Jalandhar",
-      "Dr. Urvashi, Assistant Professor, NIT Jalandhar",
-      "Dr. Karan Verma, Assistant Professor, NIT Delhi",
-    ],
+    title: "Conference Secretaries",
+    members: ["Dr. Muktesh Gupta", "Dr. Himanshu Verma", "Dr. Pranjal Kumar"],
   },
 ];
 

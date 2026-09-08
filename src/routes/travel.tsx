@@ -1,17 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageLayout, PageHero, Section } from "@/components/site/PageLayout";
-import travelImg from "@/assets/travel.jpg.asset.json";
 
 export const Route = createFileRoute("/travel")({
   head: () => ({
     meta: [
-      { title: "Travel & Visa | NITCOM-2025" },
+      { title: "Travel & Visa | NITCOM-2027" },
       {
         name: "description",
         content:
-          "Travel, visa and accommodation guidance for delegates attending NITCOM-2025 at NIT Jalandhar, Punjab, India.",
+          "Travel, visa and accommodation guidance for delegates attending NITCOM-2027 at NIT Jalandhar, Punjab, India.",
       },
-      { property: "og:title", content: "Travel & Visa | NITCOM-2025" },
+      { property: "og:title", content: "Travel & Visa | NITCOM-2027" },
       {
         property: "og:description",
         content: "How to reach NIT Jalandhar, visa guidance and nearby attractions.",
@@ -81,7 +80,7 @@ function Travel() {
       <Section title="Nearby Attractions">
         <div className="grid gap-8 md:grid-cols-2 md:items-center">
           <img
-            src={travelImg.url}
+            src={`${import.meta.env.BASE_URL}travel.jpg`}
             alt="Landmark near Jalandhar, Punjab"
             className="h-72 w-full rounded-lg object-cover shadow-lg"
             loading="lazy"

@@ -4,16 +4,16 @@ import { PageLayout, PageHero, Section } from "@/components/site/PageLayout";
 export const Route = createFileRoute("/author-guidelines")({
   head: () => ({
     meta: [
-      { title: "Author Guidelines | NITCOM-2025" },
+      { title: "Author Guidelines | NITCOM-2027" },
       {
         name: "description",
         content:
-          "Submission rules for NITCOM-2025: Microsoft CMT portal, Springer template, 12-page limit, Turnitin plagiarism check and SCOPUS-indexed publication.",
+          "Submission rules for NITCOM-2027: Microsoft CMT portal, Springer template, 12-page limit, Turnitin plagiarism check and SCOPUS-indexed publication.",
       },
-      { property: "og:title", content: "Author Guidelines | NITCOM-2025" },
+      { property: "og:title", content: "Author Guidelines | NITCOM-2027" },
       {
         property: "og:description",
-        content: "How to prepare and submit your paper to NITCOM-2025 at NIT Jalandhar.",
+        content: "How to prepare and submit your paper to NITCOM-2027 at NIT Jalandhar.",
       },
     ],
   }),
@@ -36,7 +36,7 @@ function AuthorGuidelines() {
       <PageHero
         eyebrow="Author Guidelines"
         title="Preparing and submitting your manuscript"
-        description="Please read these requirements carefully before submitting to NITCOM-2025."
+        description="Please read these requirements carefully before submitting to NITCOM-2027."
       />
 
       <Section>

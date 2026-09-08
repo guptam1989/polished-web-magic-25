@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/nitj_logo.png.asset.json";
 
 const nav = [
   { to: "/", label: "Home" },
@@ -21,16 +20,20 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur">
       <div className="bg-navy-deep text-navy-foreground">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-2 text-xs">
-          <p className="tracking-wide">June 13–14, 2025 · Hybrid Mode · NIT Jalandhar</p>
+          <p className="tracking-wide">May 28–29, 2027 · Hybrid Mode · NIT Jalandhar</p>
           <p className="text-navy-foreground/70">Technically sponsored by Springer</p>
         </div>
       </div>
 
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4">
         <Link to="/" className="flex items-center gap-3">
-          <img src={logo.url} alt="NIT Jalandhar logo" className="h-12 w-12 object-contain" />
+          <img
+            src={`${import.meta.env.BASE_URL}nitj-logo.png`}
+            alt="NIT Jalandhar logo"
+            className="h-12 w-12 object-contain"
+          />
           <span className="leading-tight">
-            <span className="block font-display text-xl font-semibold text-navy">NITCOM-2025</span>
+            <span className="block font-display text-xl font-semibold text-navy">NITCOM-2027</span>
             <span className="block text-[11px] text-muted-foreground">
               Dept. of Computer Science &amp; Engineering, NIT Jalandhar
             </span>

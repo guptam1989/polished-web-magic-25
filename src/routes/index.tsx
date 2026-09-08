@@ -2,23 +2,21 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { CalendarDays, FileText, MapPin, Users } from "lucide-react";
 import { PageLayout, Section } from "@/components/site/PageLayout";
 import { importantDates, tracks } from "@/data/conference";
-import campus from "@/assets/CLG.jpg.asset.json";
-import ai from "@/assets/ai.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NITCOM-2025 | Next-Gen Intelligent Technologies Conference" },
+      { title: "NITCOM-2027 | Next-Gen Intelligent Technologies Conference" },
       {
         name: "description",
         content:
-          "NITCOM-2025: International Conference on Next-Gen Intelligent Technologies in Computing and Communication, NIT Jalandhar, June 13-14, 2025.",
+          "NITCOM-2027: International Conference on Next-Gen Intelligent Technologies in Computing and Communication at NIT Jalandhar.",
       },
-      { property: "og:title", content: "NITCOM-2025 | NIT Jalandhar" },
+      { property: "og:title", content: "NITCOM-2027 | NIT Jalandhar" },
       {
         property: "og:description",
         content:
-          "International conference on computing, AI, security and communication at NIT Jalandhar, June 13-14, 2025. Proceedings SCOPUS indexed.",
+          "International conference on computing, AI, security and communication at NIT Jalandhar, May 28-29, 2027. Proceedings SCOPUS indexed.",
       },
     ],
   }),
@@ -30,7 +28,7 @@ function Index() {
     <PageLayout>
       <section className="relative overflow-hidden">
         <img
-          src={campus.url}
+          src={`${import.meta.env.BASE_URL}campus.jpg`}
           alt="Dr. B. R. Ambedkar National Institute of Technology Jalandhar campus"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -42,13 +40,13 @@ function Index() {
               Communication
             </h1>
             <p className="mt-5 max-w-2xl text-lg text-navy-foreground/80">
-              NITCOM-2025 brings together researchers, academicians and industry practitioners
+              NITCOM-2027 brings together researchers, academicians and industry practitioners
               shaping the future of computing, artificial intelligence, security and communication.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4 text-sm text-navy-foreground/85">
               <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/25 px-4 py-2">
-                <CalendarDays className="h-4 w-4 text-gold" /> June 13–14, 2025
+                <CalendarDays className="h-4 w-4 text-gold" /> May 28–29, 2027
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/25 px-4 py-2">
                 <MapPin className="h-4 w-4 text-gold" /> Jalandhar, Punjab · Hybrid
@@ -94,7 +92,7 @@ function Index() {
           <div className="grid items-center gap-10 md:grid-cols-2">
             <div className="space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                The purpose of NITCOM-2025 is to promote research in the technologies of the future
+                The purpose of NITCOM-2027 is to promote research in the technologies of the future
                 and to provide a common platform for collaboration and exchange of research
                 contributions among professionals, researchers, academicians, industrialists,
                 scholars, scientists and engineers in affiliated disciplines.
@@ -112,7 +110,7 @@ function Index() {
               </p>
             </div>
             <img
-              src={ai.url}
+              src={`${import.meta.env.BASE_URL}ai.webp`}
               alt="Abstract visualisation of intelligent computing research"
               className="h-72 w-full rounded-lg object-cover shadow-lg"
               loading="lazy"

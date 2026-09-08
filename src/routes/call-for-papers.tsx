@@ -5,17 +5,17 @@ import { importantDates, tracks } from "@/data/conference";
 export const Route = createFileRoute("/call-for-papers")({
   head: () => ({
     meta: [
-      { title: "Call for Papers | NITCOM-2025" },
+      { title: "Call for Papers | NITCOM-2027" },
       {
         name: "description",
         content:
-          "Submit to NITCOM-2025: five tracks, 12-page Springer template, Microsoft CMT submission, SCOPUS-indexed proceedings. Deadline February 28, 2025.",
+          "Submit to NITCOM-2027: five tracks, 12-page Springer template, Microsoft CMT submission and SCOPUS-indexed proceedings.",
       },
-      { property: "og:title", content: "Call for Papers | NITCOM-2025" },
+      { property: "og:title", content: "Call for Papers | NITCOM-2027" },
       {
         property: "og:description",
         content:
-          "Tracks, submission guidelines and important dates for NITCOM-2025 at NIT Jalandhar.",
+          "Tracks, submission guidelines and important dates for NITCOM-2027 at NIT Jalandhar.",
       },
     ],
   }),
@@ -27,14 +27,14 @@ function Cfp() {
     <PageLayout>
       <PageHero
         eyebrow="Call for Papers"
-        title="Share your research at NITCOM-2025"
-        description="June 13–14, 2025 · Hybrid Mode · Technically sponsored by Springer"
+        title="Share your research at NITCOM-2027"
+        description="May 28–29, 2027 · Hybrid Mode · Technically sponsored by Springer"
       />
 
       <Section>
         <p className="max-w-4xl leading-relaxed text-muted-foreground">
           The Department of Computer Science and Engineering at Dr. B. R. Ambedkar National
-          Institute of Technology, Jalandhar invites submissions to NITCOM-2025. The conference
+          Institute of Technology, Jalandhar invites submissions to NITCOM-2027. The conference
           provides a collaborative platform for researchers, academicians, scientists and industry
           professionals to share innovative contributions and advancements in cutting-edge
           technologies.

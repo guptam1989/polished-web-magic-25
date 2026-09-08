@@ -1,0 +1,151 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="190" y1="40" x2="1380" y2="860" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#030B19"/>
+      <stop offset="0.32" stop-color="#120E29"/>
+      <stop offset="0.66" stop-color="#0B1A2D"/>
+      <stop offset="1" stop-color="#050B16"/>
+    </linearGradient>
+    <radialGradient id="light1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(820 430) rotate(90) scale(390 480)">
+      <stop offset="0" stop-color="#B7F6FF" stop-opacity="0.9"/>
+      <stop offset="0.22" stop-color="#64D7FF" stop-opacity="0.72"/>
+      <stop offset="0.62" stop-color="#5D72FF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#0E1525" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="light2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1180 220) rotate(90) scale(280 320)">
+      <stop offset="0" stop-color="#FFC678" stop-opacity="0.9"/>
+      <stop offset="0.35" stop-color="#FF7A66" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#FF5A7F" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lineA" x1="550" y1="200" x2="1180" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7FE5FF"/>
+      <stop offset="0.28" stop-color="#B8F5FF"/>
+      <stop offset="0.56" stop-color="#BAC5FF"/>
+      <stop offset="0.8" stop-color="#F8C785"/>
+      <stop offset="1" stop-color="#FF8B73"/>
+    </linearGradient>
+    <linearGradient id="lineB" x1="300" y1="200" x2="1280" y2="740" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7BE8FF"/>
+      <stop offset="0.25" stop-color="#6CC4FF"/>
+      <stop offset="0.5" stop-color="#D3B5FF"/>
+      <stop offset="0.8" stop-color="#F8C38B"/>
+      <stop offset="1" stop-color="#FF7B70"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="440" y1="120" x2="1200" y2="190" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EEF7FF"/>
+      <stop offset="0.5" stop-color="#D4EEFF"/>
+      <stop offset="1" stop-color="#B9D3FF"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#6ED9FF" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <g opacity="0.7" filter="url(#softBlur)">
+    <ellipse cx="820" cy="440" rx="500" ry="360" fill="url(#light1)"/>
+    <ellipse cx="1180" cy="220" rx="260" ry="220" fill="url(#light2)"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="170" cy="220" r="90" fill="#0F2A4E"/>
+    <circle cx="1425" cy="220" r="90" fill="#0B2540"/>
+    <circle cx="1180" cy="770" r="120" fill="#0B2038"/>
+    <circle cx="340" cy="770" r="120" fill="#0D2139"/>
+  </g>
+
+  <g opacity="0.7">
+    <path d="M120 730C290 605 398 540 520 498C640 455 733 448 854 470C1016 496 1128 551 1292 647L1400 780H120V730Z" fill="#0B1C32" fill-opacity="0.7"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#glow)">
+    <path d="M220 130H1380" stroke="#6DDCFF" stroke-opacity="0.3" stroke-width="2"/>
+    <path d="M260 770H1335" stroke="#7BE4FF" stroke-opacity="0.3" stroke-width="2"/>
+  </g>
+
+  <g opacity="0.7">
+    <path d="M860 746C700 603 540 554 420 520C347 499 286 462 222 412" stroke="#78E8FF" stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+    <path d="M700 754C868 637 1008 590 1182 528C1290 489 1367 441 1442 388" stroke="#FFB36D" stroke-opacity="0.8" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="1 9"/>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.9">
+    <path d="M222 205C318 328 440 422 560 462C624 484 692 483 762 474C835 465 900 444 988 390C1074 337 1173 304 1266 305C1329 305 1384 321 1440 350V198H222V205Z" fill="none" stroke="url(#lineA)" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M196 382C280 477 346 539 422 598C516 674 612 697 706 704C800 711 892 695 962 655C1037 611 1095 547 1171 482C1248 416 1328 371 1420 351" stroke="url(#lineB)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M331 690C390 602 459 548 546 507C608 477 678 472 752 485C845 501 919 551 1001 589C1076 623 1158 646 1268 653C1314 656 1356 655 1396 650" stroke="url(#lineA)" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.8">
+    <path d="M311 307L438 246L505 306L465 430L335 465L275 380L311 307Z" stroke="#7BE6FF" stroke-width="3" fill="none"/>
+    <path d="M1245 253L1368 286L1305 430L1170 418L1098 314L1245 253Z" stroke="#FFB16D" stroke-width="3" fill="none"/>
+    <path d="M890 260L954 190L1065 244L1038 367L915 354L890 260Z" stroke="#9ADFFF" stroke-width="3" fill="none"/>
+    <path d="M448 668L562 615L581 702L495 777L405 726L448 668Z" stroke="#8DE5FF" stroke-width="3" fill="none"/>
+    <path d="M1091 697L1205 634L1235 711L1182 803L1065 784L1091 697Z" stroke="#FFB673" stroke-width="3" fill="none"/>
+  </g>
+
+  <g opacity="0.9">
+    <circle cx="286" cy="436" r="7" fill="#7BE6FF"/>
+    <circle cx="356" cy="256" r="8" fill="#7BE6FF"/>
+    <circle cx="576" cy="480" r="8" fill="#7BE6FF"/>
+    <circle cx="931" cy="232" r="8" fill="#7BE6FF"/>
+    <circle cx="1160" cy="339" r="8" fill="#FFB166"/>
+    <circle cx="1278" cy="287" r="8" fill="#FFB166"/>
+    <circle cx="1090" cy="694" r="8" fill="#FFB166"/>
+    <circle cx="484" cy="700" r="8" fill="#7DE7FF"/>
+    <circle cx="1224" cy="610" r="8" fill="#8EEAFF"/>
+    <circle cx="829" cy="233" r="8" fill="#8FEAFF"/>
+  </g>
+
+  <g>
+    <rect x="180" y="32" width="1240" height="66" rx="18" fill="#0C1730" fill-opacity="0.45" stroke="#7AE6FF" stroke-opacity="0.7"/>
+    <text x="800" y="75" text-anchor="middle" fill="url(#textGrad)" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="4">NITCOM-2027: INNOVATION, COLLABORATION, FUTURE TECHNOLOGIES</text>
+  </g>
+
+  <g>
+    <text x="800" y="175" text-anchor="middle" fill="#ECF7FF" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700" letter-spacing="1.5">‘SYNAPTIC HORIZONS’</text>
+  </g>
+
+  <g>
+    <g filter="url(#glow)">
+      <circle cx="792" cy="448" r="118" fill="#0E2238" stroke="#9BEAFF" stroke-width="3"/>
+      <text x="792" y="487" text-anchor="middle" fill="#DDFBFF" font-family="Arial, Helvetica, sans-serif" font-size="170" font-weight="800">N</text>
+    </g>
+  </g>
+
+  <g>
+    <g transform="translate(265 630)">
+      <circle cx="126" cy="30" r="26" fill="#0A1D32" stroke="#99EEFF" stroke-width="2"/>
+      <circle cx="126" cy="30" r="10" fill="#B8F5FF"/>
+      <text x="126" y="92" text-anchor="middle" fill="#D9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">RESEARCHERS</text>
+    </g>
+    <g transform="translate(825 624)">
+      <circle cx="126" cy="30" r="26" fill="#0A1D32" stroke="#FFB36E" stroke-width="2"/>
+      <circle cx="126" cy="30" r="10" fill="#FFC78F"/>
+      <text x="126" y="92" text-anchor="middle" fill="#FDF3FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">INDUSTRIALISTS</text>
+    </g>
+    <g transform="translate(1145 620)">
+      <circle cx="126" cy="30" r="26" fill="#0A1D32" stroke="#9FE9FF" stroke-width="2"/>
+      <circle cx="126" cy="30" r="10" fill="#B8F5FF"/>
+      <text x="126" y="92" text-anchor="middle" fill="#D9F8FF" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">SCIENTISTS</text>
+    </g>
+  </g>
+
+  <g>
+    <text x="800" y="808" text-anchor="middle" fill="#EAF8FF" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="700" letter-spacing="2">RESEARCHERS, ACADEMICIANS, INDUSTRIALISTS, SCHOLARS, SCIENTISTS, ENGINEERS</text>
+  </g>
+
+  <g opacity="0.95">
+    <path d="M315 258L240 266L270 340L346 332L315 258Z" fill="#1B1D37" stroke="#94EBFF" stroke-width="2"/>
+    <path d="M1302 250L1377 258L1348 334L1270 331L1302 250Z" fill="#191d39" stroke="#FFCC8D" stroke-width="2"/>
+  </g>
+</svg>

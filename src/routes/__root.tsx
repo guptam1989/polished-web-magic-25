@@ -77,18 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "NITCOM-2025 | NIT Jalandhar" },
+      { title: "NITCOM-2027 | NIT Jalandhar" },
       {
         name: "description",
         content:
-          "International Conference on Next-Gen Intelligent Technologies in Computing and Communication, NIT Jalandhar, June 13-14, 2025.",
+          "International Conference on Next-Gen Intelligent Technologies in Computing and Communication, NIT Jalandhar, May 28-29, 2027.",
       },
       { name: "author", content: "NIT Jalandhar" },
-      { property: "og:title", content: "NITCOM-2025 | NIT Jalandhar" },
+      { property: "og:title", content: "NITCOM-2027 | NIT Jalandhar" },
       {
         property: "og:description",
         content:
-          "International Conference on Next-Gen Intelligent Technologies in Computing and Communication, June 13-14, 2025.",
+          "International Conference on Next-Gen Intelligent Technologies in Computing and Communication, May 28-29, 2027.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

@@ -6,7 +6,7 @@ export function SiteFooter() {
     <footer className="mt-24 bg-navy-deep text-navy-foreground">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 md:grid-cols-3">
         <div>
-          <h3 className="font-display text-xl font-semibold">NITCOM-2025</h3>
+          <h3 className="font-display text-xl font-semibold">NITCOM-2027</h3>
           <p className="mt-3 text-sm text-navy-foreground/75">
             International Conference on Next-Gen Intelligent Technologies in Computing and
             Communication, hosted by the Department of Computer Science &amp; Engineering.
@@ -48,7 +48,7 @@ export function SiteFooter() {
 
       <div className="border-t border-navy-foreground/15">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-navy-foreground/60">
-          <p>© 2025 NITCOM, NIT Jalandhar. All rights reserved.</p>
+          <p>© 2027 NITCOM, NIT Jalandhar. All rights reserved.</p>
           <div className="flex gap-4">
             <Link to="/call-for-papers" className="hover:text-navy-foreground">
               Call for Papers

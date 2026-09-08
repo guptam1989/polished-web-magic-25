@@ -5,16 +5,16 @@ import { bankDetails, earlyBirdFees, normalFees } from "@/data/conference";
 export const Route = createFileRoute("/registration")({
   head: () => ({
     meta: [
-      { title: "Registration & Fees | NITCOM-2025" },
+      { title: "Registration & Fees | NITCOM-2027" },
       {
         name: "description",
         content:
-          "NITCOM-2025 registration fees for academicians, industry, students and attendees, plus bank transfer details for payment.",
+          "NITCOM-2027 registration fees for academicians, industry, students and attendees, plus bank transfer details for payment.",
       },
-      { property: "og:title", content: "Registration & Fees | NITCOM-2025" },
+      { property: "og:title", content: "Registration & Fees | NITCOM-2027" },
       {
         property: "og:description",
-        content: "Early-bird and normal registration fees and payment details for NITCOM-2025.",
+        content: "Early-bird and normal registration fees and payment details for NITCOM-2027.",
       },
     ],
   }),
@@ -71,12 +71,12 @@ function Registration() {
         <div className="grid gap-6 lg:grid-cols-2">
           <FeeTable
             title="Early Bird Registration"
-            note="On or before May 10, 2025"
+            note="Registration opens March 15, 2027"
             rows={earlyBirdFees}
           />
           <FeeTable
             title="Normal Registration"
-            note="After May 10, 2025"
+            note="Registration closes April 15, 2027"
             rows={normalFees}
           />
         </div>

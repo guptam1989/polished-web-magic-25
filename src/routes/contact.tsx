@@ -5,16 +5,16 @@ import { PageLayout, PageHero, Section } from "@/components/site/PageLayout";
 export const Route = createFileRoute("/contact")({
   head: () => ({
     meta: [
-      { title: "Contact | NITCOM-2025" },
+      { title: "Contact | NITCOM-2027" },
       {
         name: "description",
         content:
-          "Contact the NITCOM-2025 organising committee at NIT Jalandhar by email, phone or post.",
+          "Contact the NITCOM-2027 organising committee at NIT Jalandhar by email, phone or post.",
       },
-      { property: "og:title", content: "Contact | NITCOM-2025" },
+      { property: "og:title", content: "Contact | NITCOM-2027" },
       {
         property: "og:description",
-        content: "Reach the NITCOM-2025 organising committee, Department of CSE, NIT Jalandhar.",
+        content: "Reach the NITCOM-2027 organising committee, Department of CSE, NIT Jalandhar.",
       },
     ],
   }),
@@ -27,7 +27,7 @@ function Contact() {
       <PageHero
         eyebrow="Contact"
         title="Get in touch with the organisers"
-        description="The NITCOM-2025 organising committee is happy to help with submissions, registration and travel questions."
+        description="The NITCOM-2027 organising committee is happy to help with submissions, registration and travel questions."
       />
 
       <Section>

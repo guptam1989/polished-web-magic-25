@@ -1,4 +1,4 @@
-# Running and publishing NITCOM
+# Running and publishing NITCOM-2027
 
 ## Requirements
 
@@ -14,7 +14,7 @@ npm install
 npm run dev
 ```
 
-Open the URL printed by Vite, normally <http://localhost:5173/>.
+Open the local URL printed by Vite, normally <http://localhost:5173/>.
 
 ## Production build
 
@@ -32,11 +32,13 @@ The static website is written to `dist-pages/`.
 
 ## Publish with GitHub Pages
 
-The workflow at `.github/workflows/deploy-pages.yml` builds and publishes the
-website after every push to `main`.
+The workflow at `.github/workflows/deploy-pages.yml` automatically builds and
+publishes the website whenever a commit is pushed to `main`.
 
 In the GitHub repository, open **Settings > Pages** and set **Source** to
-**GitHub Actions**. Then open **Actions** and run **Deploy website to GitHub
-Pages**, or push a new commit to `main`.
+**GitHub Actions**. Then open the **Actions** tab and run **Deploy website to
+GitHub Pages**, or push a new commit to `main`.
 
-Published URL: <https://guptam1989.github.io/polished-web-magic-25/>
+The published website URL is:
+
+<https://guptam1989.github.io/polished-web-magic-25/>

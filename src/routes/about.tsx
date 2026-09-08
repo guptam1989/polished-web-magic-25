@@ -1,21 +1,20 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { PageLayout, PageHero, Section } from "@/components/site/PageLayout";
-import campus from "@/assets/CLG.jpg.asset.json";
 
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About NITCOM-2025 | NIT Jalandhar" },
+      { title: "About NITCOM-2027 | NIT Jalandhar" },
       {
         name: "description",
         content:
-          "About the host: Dr. B. R. Ambedkar NIT Jalandhar and its Department of Computer Science & Engineering, organisers of NITCOM-2025.",
+          "About the host: Dr. B. R. Ambedkar NIT Jalandhar and its Department of Computer Science & Engineering, organisers of NITCOM-2027.",
       },
-      { property: "og:title", content: "About NITCOM-2025" },
+      { property: "og:title", content: "About NITCOM-2027" },
       {
         property: "og:description",
         content:
-          "Learn about NIT Jalandhar, an Institute of National Importance, and the CSE department hosting NITCOM-2025.",
+          "Learn about NIT Jalandhar, an Institute of National Importance, and the CSE department hosting NITCOM-2027.",
       },
     ],
   }),
@@ -28,7 +27,7 @@ function About() {
       <PageHero
         eyebrow="About"
         title="An Institute of National Importance"
-        description="NITCOM-2025 is organised by the Department of Computer Science & Engineering at Dr. B. R. Ambedkar National Institute of Technology, Jalandhar."
+        description="NITCOM-2027 is organised by the Department of Computer Science & Engineering at Dr. B. R. Ambedkar National Institute of Technology, Jalandhar."
       />
 
       <Section title="Dr. B. R. Ambedkar NIT Jalandhar">
@@ -47,7 +46,7 @@ function About() {
             </p>
           </div>
           <img
-            src={campus.url}
+            src={`${import.meta.env.BASE_URL}campus.jpg`}
             alt="NIT Jalandhar campus building"
             className="h-72 w-full rounded-lg object-cover shadow-lg"
             loading="lazy"
@@ -62,8 +61,8 @@ function About() {
               The Department of Computer Science and Engineering began in 1990 with an intake of 40
               students in its undergraduate programme, later revised to 60 and now 93. Postgraduate
               and Ph.D. programmes were introduced in 2006. The department's research spans
-              artificial intelligence, security, networks, software engineering and
-              high-performance computing.
+              artificial intelligence, security, networks, software engineering and high-performance
+              computing.
             </p>
             <div className="card-elevated space-y-4 p-6">
               {[
