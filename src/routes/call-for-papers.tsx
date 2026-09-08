@@ -9,7 +9,7 @@ export const Route = createFileRoute("/call-for-papers")({
       {
         name: "description",
         content:
-          "Submit to NITCOM-2027: five tracks, 12-page Springer template, Microsoft CMT submission and SCOPUS-indexed proceedings.",
+          "Submit to NITCOM-2027: five tracks, a 12-page recommended conference proceedings template and Microsoft CMT submission.",
       },
       { property: "og:title", content: "Call for Papers | NITCOM-2027" },
       {
@@ -58,11 +58,11 @@ function Cfp() {
           <ul className="max-w-4xl space-y-3">
             {[
               "Papers must be written in English with a maximum length of 12 pages, including references.",
-              "All submissions must adhere to the Springer Computer Science Conference Proceedings template.",
+              "All submissions must adhere to the recommended conference proceedings template.",
               "Papers must be submitted through the Microsoft CMT conference management system.",
               "Only original, unpublished work is considered; simultaneous submissions are not permitted.",
               "All submissions undergo plagiarism screening using Turnitin.",
-              "Accepted papers will be published in SCOPUS-indexed proceedings.",
+              "Proceedings will be submitted to a reputed international publisher; indexing is subject to publisher approval.",
             ].map((item) => (
               <li key={item} className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
