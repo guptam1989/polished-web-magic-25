@@ -45,7 +45,7 @@ function Contact() {
             {
               icon: Mail,
               title: "Email",
-              lines: ["nitcom.cs@nitj.ac.in"],
+              lines: ["guptam@nitj.ac.in"],
             },
             {
               icon: Phone,
