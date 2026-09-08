@@ -20,7 +20,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/90 backdrop-blur">
       <div className="bg-navy-deep text-navy-foreground">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-4 py-2 text-xs">
-          <p className="tracking-wide">May 28â€“29, 2027 Â· Hybrid Mode Â· NIT Jalandhar</p>
+          <p className="tracking-wide">May 28-29, 2027 Â· Hybrid Mode Â· NIT Jalandhar</p>
         </div>
       </div>
 
