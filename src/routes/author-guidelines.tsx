@@ -8,7 +8,7 @@ export const Route = createFileRoute("/author-guidelines")({
       {
         name: "description",
         content:
-          "Submission rules for NITCOM-2027: Microsoft CMT portal, Springer template, 12-page limit, Turnitin plagiarism check and SCOPUS-indexed publication.",
+          "Submission rules for NITCOM-2027: Microsoft CMT portal, recommended conference proceedings template, 12-page limit and Turnitin plagiarism check.",
       },
       { property: "og:title", content: "Author Guidelines | NITCOM-2027" },
       {
@@ -23,11 +23,11 @@ export const Route = createFileRoute("/author-guidelines")({
 const guidelines = [
   "Paper submission is handled through the Microsoft CMT portal, which manages the peer-review process for this conference.",
   "All papers must be written in English with a maximum length of 12 printed pages, including references.",
-  "Submissions must strictly follow the recommended Springer Computer Science Conference Proceedings template.",
+  "Submissions must strictly follow the recommended conference proceedings template.",
   "Submitted papers must contain original, unpublished work. Simultaneous submissions to other conferences or journals are not allowed.",
   "All manuscripts are screened for plagiarism using Turnitin; a similarity index above 19% may lead to rejection at any stage.",
   "The decision regarding acceptance of a paper rests with the Technical Program Committee.",
-  "Selected papers will be published in SCOPUS-indexed proceedings.",
+  "Proceedings will be submitted to a reputed international publisher; indexing is subject to publisher approval.",
 ];
 
 function AuthorGuidelines() {
@@ -61,7 +61,7 @@ function AuthorGuidelines() {
               rel="noreferrer"
               className="card-elevated block p-6 transition-shadow hover:shadow-lg"
             >
-              <h3 className="font-display text-lg font-semibold text-navy">Springer Template</h3>
+              <h3 className="font-display text-lg font-semibold text-navy">Paper Template</h3>
               <p className="mt-2 text-sm text-muted-foreground">
                 Conference proceedings guidelines and LaTeX/Word templates.
               </p>
@@ -88,3 +88,4 @@ function AuthorGuidelines() {
     </PageLayout>
   );
 }
+
