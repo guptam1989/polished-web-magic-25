@@ -127,18 +127,7 @@ function Index() {
               </p>
               <p className="mt-4 border-t border-border pt-3 text-xs text-muted-foreground">
                 <span className="font-semibold text-foreground">Track Chair: </span>
-                {t.chairUrl ? (
-                  <a
-                    href={t.chairUrl}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="underline hover:text-navy"
-                  >
-                    {t.chair}
-                  </a>
-                ) : (
-                  t.chair
-                )}
+                {t.chair}
               </p>
             </article>
           ))}
