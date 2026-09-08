@@ -16,7 +16,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "International conference on computing, AI, security and communication at NIT Jalandhar, May 28-29, 2027. Proceedings SCOPUS indexed.",
+          "International conference on computing, AI, security and communication at NIT Jalandhar, May 28-29, 2027.",
       },
     ],
   }),
@@ -102,8 +102,8 @@ function Index() {
                 technologies bring.
               </p>
               <p className="font-medium text-foreground">
-                All accepted and presented papers will be submitted to Springer LNCS for
-                consideration for publication.
+                Proceedings of the conference will be submitted to a reputed international publisher
+                for consideration. Indexing is subject to publisher approval.
               </p>
             </div>
             <img
@@ -141,8 +141,8 @@ function Index() {
               Ready to submit your research?
             </h2>
             <p className="mt-2 max-w-xl text-sm text-muted-foreground">
-              Submissions are handled through the Microsoft CMT portal using the Springer Computer
-              Science Conference Proceedings template.
+              Submissions are handled through the Microsoft CMT portal using the recommended
+              conference proceedings template.
             </p>
           </div>
           <div className="flex gap-3">
