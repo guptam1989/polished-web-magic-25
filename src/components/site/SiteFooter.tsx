@@ -9,7 +9,8 @@ export function SiteFooter() {
           <h3 className="font-display text-xl font-semibold">NITCOM-2027</h3>
           <p className="mt-3 text-sm text-navy-foreground/75">
             International Conference on Next-Gen Intelligent Technologies in Computing and
-            Communication, hosted by the Department of Computer Science &amp; Engineering.
+            Communication, hosted by the Department of Computer Science &amp; Engineering at NIT
+            Jalandhar.
           </p>
         </div>
 
@@ -20,7 +21,7 @@ export function SiteFooter() {
             <span>
               Dr. B. R. Ambedkar National Institute of Technology
               <br />
-              N.I.T. Post Office, Jalandhar (Punjab) – 144 027
+              N.I.T. Post Office, Jalandhar (Punjab) â€“ 144 027
             </span>
           </p>
         </div>
@@ -48,7 +49,7 @@ export function SiteFooter() {
 
       <div className="border-t border-navy-foreground/15">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-navy-foreground/60">
-          <p>© 2027 NITCOM, NIT Jalandhar. All rights reserved.</p>
+          <p>Â© 2027 NITCOM, NIT Jalandhar. All rights reserved.</p>
           <div className="flex gap-4">
             <Link to="/call-for-papers" className="hover:text-navy-foreground">
               Call for Papers
@@ -65,3 +66,4 @@ export function SiteFooter() {
     </footer>
   );
 }
+
