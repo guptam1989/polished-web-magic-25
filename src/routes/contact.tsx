@@ -50,7 +50,7 @@ function Contact() {
             {
               icon: Phone,
               title: "Phone",
-              lines: ["+91 83519 76199", "+91 70784 38786"],
+              lines: ["+919988190036", "+919882774691"],
             },
           ].map((c) => (
             <div key={c.title} className="card-elevated p-6">
