@@ -49,7 +49,7 @@ function Index() {
                 <CalendarDays className="h-4 w-4 text-gold" /> May 28-29, 2027
               </span>
               <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/25 px-4 py-2">
-                <MapPin className="h-4 w-4 text-gold" /> Jalandhar, Punjab Â· Hybrid
+                <MapPin className="h-4 w-4 text-gold" /> Jalandhar, Punjab | Hybrid
               </span>
             </div>
 
